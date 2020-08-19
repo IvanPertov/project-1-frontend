@@ -1,0 +1,25 @@
+﻿{
+  "name": "IISproject_1ЗемельныйУчасток",
+  "modelName": "i-i-s-project-1-земельный-участок",
+  "className": "ЗемельныйУчасток",
+  "nameSpace": "IIS.project_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "primarykey",
+      "type": "string",
+      "flexberryType": "uuid",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "name": "IISproject_1Оплаты",
+  "modelName": "i-i-s-project-1-оплаты",
+  "className": "Оплаты",
+  "nameSpace": "IIS.project_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
