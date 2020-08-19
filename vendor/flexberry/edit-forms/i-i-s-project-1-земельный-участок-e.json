@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Земельный участок",
+  "name": "IISproject_1ЗемельныйУчастокE",
+  "className": "ЗемельныйУчастокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-земельный-участок",
+      "modelProjection": "ЗемельныйУчастокE"
+    }
+  ]
+}

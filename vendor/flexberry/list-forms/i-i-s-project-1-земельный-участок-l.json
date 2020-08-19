@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-project-1-земельный-участок-e",
+  "editForm": "i-i-s-project-1-земельный-участок-e",
+  "external": false,
+  "caption": "Земельный участок",
+  "name": "IISproject_1ЗемельныйУчастокL",
+  "className": "ЗемельныйУчастокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-земельный-участок",
+      "modelProjection": "ЗемельныйУчастокL"
+    }
+  ]
+}

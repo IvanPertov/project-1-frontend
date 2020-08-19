@@ -8,7 +8,22 @@
   "attrs": [],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "ЗУДоговораE",
+      "modelName": "i-i-s-project-1-з-у-договора",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗУДоговораL",
+      "modelName": "i-i-s-project-1-з-у-договора",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false

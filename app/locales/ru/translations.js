@@ -1,6 +1,16 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISproject_1ДоговорLForm from './forms/i-i-s-project-1-договор-l';
+import IISproject_1ЗУДоговораLForm from './forms/i-i-s-project-1-з-у-договора-l';
+import IISproject_1ЗемельныйУчастокLForm from './forms/i-i-s-project-1-земельный-участок-l';
+import IISproject_1НачисленияLForm from './forms/i-i-s-project-1-начисления-l';
+import IISproject_1ОплатыLForm from './forms/i-i-s-project-1-оплаты-l';
+import IISproject_1ДоговорEForm from './forms/i-i-s-project-1-договор-e';
+import IISproject_1ЗУДоговораEForm from './forms/i-i-s-project-1-з-у-договора-e';
+import IISproject_1ЗемельныйУчастокEForm from './forms/i-i-s-project-1-земельный-участок-e';
+import IISproject_1НачисленияEForm from './forms/i-i-s-project-1-начисления-e';
+import IISproject_1ОплатыEForm from './forms/i-i-s-project-1-оплаты-e';
 import IISproject_1ДоговорModel from './models/i-i-s-project-1-договор';
 import IISproject_1ЗУДоговораModel from './models/i-i-s-project-1-з-у-договора';
 import IISproject_1ЗемельныйУчастокModel from './models/i-i-s-project-1-земельный-участок';
@@ -19,7 +29,7 @@ $.extend(true, translations, {
     'i-i-s-project-1-оплаты': IISproject_1ОплатыModel
   },
 
-  'application-name': '',
+  'application-name': 'Project_1',
 
   forms: {
     loading: {
@@ -58,7 +68,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Project_1',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -69,8 +79,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: ''
+          caption: 'Project_1',
+          title: 'Project_1'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -82,7 +92,30 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-
+        'project-1': {
+          caption: 'project_1',
+          title: 'project_1',
+          'i-i-s-project-1-з-у-договора-l': {
+            caption: 'З у договора',
+            title: ''
+          },
+          'i-i-s-project-1-оплаты-l': {
+            caption: 'Оплаты',
+            title: ''
+          },
+          'i-i-s-project-1-договор-l': {
+            caption: 'Договор',
+            title: ''
+          },
+          'i-i-s-project-1-начисления-l': {
+            caption: 'Начисления',
+            title: ''
+          },
+          'i-i-s-project-1-земельный-участок-l': {
+            caption: 'Земельный участок',
+            title: ''
+          }
+        }
       }
     },
 
@@ -94,7 +127,16 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления'
     },
-
+    'i-i-s-project-1-договор-l': IISproject_1ДоговорLForm,
+    'i-i-s-project-1-з-у-договора-l': IISproject_1ЗУДоговораLForm,
+    'i-i-s-project-1-земельный-участок-l': IISproject_1ЗемельныйУчастокLForm,
+    'i-i-s-project-1-начисления-l': IISproject_1НачисленияLForm,
+    'i-i-s-project-1-оплаты-l': IISproject_1ОплатыLForm,
+    'i-i-s-project-1-договор-e': IISproject_1ДоговорEForm,
+    'i-i-s-project-1-з-у-договора-e': IISproject_1ЗУДоговораEForm,
+    'i-i-s-project-1-земельный-участок-e': IISproject_1ЗемельныйУчастокEForm,
+    'i-i-s-project-1-начисления-e': IISproject_1НачисленияEForm,
+    'i-i-s-project-1-оплаты-e': IISproject_1ОплатыEForm
   },
 
 });

@@ -8,7 +8,22 @@
   "attrs": [],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "НачисленияE",
+      "modelName": "i-i-s-project-1-начисления",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "НачисленияL",
+      "modelName": "i-i-s-project-1-начисления",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false

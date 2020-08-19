@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-project-1-з-у-договора-e",
+  "editForm": "i-i-s-project-1-з-у-договора-e",
+  "external": false,
+  "caption": "З у договора",
+  "name": "IISproject_1ЗУДоговораL",
+  "className": "ЗУДоговораL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-з-у-договора",
+      "modelProjection": "ЗУДоговораL"
+    }
+  ]
+}

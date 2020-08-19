@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-project-1-оплаты-e",
+  "editForm": "i-i-s-project-1-оплаты-e",
+  "external": false,
+  "caption": "Оплаты",
+  "name": "IISproject_1ОплатыL",
+  "className": "ОплатыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-оплаты",
+      "modelProjection": "ОплатыL"
+    }
+  ]
+}

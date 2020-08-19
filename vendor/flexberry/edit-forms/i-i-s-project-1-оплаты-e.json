@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Оплаты",
+  "name": "IISproject_1ОплатыE",
+  "className": "ОплатыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-оплаты",
+      "modelProjection": "ОплатыE"
+    }
+  ]
+}

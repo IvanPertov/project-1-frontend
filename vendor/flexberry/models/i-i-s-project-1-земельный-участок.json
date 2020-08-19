@@ -18,7 +18,36 @@
   ],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "ЗемельныйУчастокE",
+      "modelName": "i-i-s-project-1-земельный-участок",
+      "attrs": [
+        {
+          "name": "primarykey",
+          "caption": "Primarykey",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗемельныйУчастокL",
+      "modelName": "i-i-s-project-1-земельный-участок",
+      "attrs": [
+        {
+          "name": "primarykey",
+          "caption": "Primarykey",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false

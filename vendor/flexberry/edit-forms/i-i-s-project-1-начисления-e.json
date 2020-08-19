@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Начисления",
+  "name": "IISproject_1НачисленияE",
+  "className": "НачисленияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project-1-начисления",
+      "modelProjection": "НачисленияE"
+    }
+  ]
+}

@@ -1,6 +1,50 @@
 ﻿{
-  "applicationCaption": null,
-  "applicationTitle": null,
-  "items": [],
+  "applicationCaption": "Project_1",
+  "applicationTitle": "Project_1",
+  "items": [
+    {
+      "link": null,
+      "menuName": "project-1",
+      "caption": "project_1",
+      "title": "project_1",
+      "children": [
+        {
+          "link": "i-i-s-project-1-з-у-договора-l",
+          "menuName": null,
+          "caption": "З у договора",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-project-1-оплаты-l",
+          "menuName": null,
+          "caption": "Оплаты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-project-1-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-project-1-начисления-l",
+          "menuName": null,
+          "caption": "Начисления",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-project-1-земельный-участок-l",
+          "menuName": null,
+          "caption": "Земельный участок",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
   "mobile": true
 }
