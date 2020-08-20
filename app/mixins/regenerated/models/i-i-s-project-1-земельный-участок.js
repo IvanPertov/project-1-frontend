@@ -5,12 +5,33 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  primarykey: DS.attr('string')
+  primarykey: DS.attr('guid'),
+  кадНомер: DS.attr('string'),
+  адрес: DS.attr('string'),
+  разрИсп: DS.attr('string')
 });
 
 export let ValidationRules = {
   primarykey: {
     descriptionKey: 'models.i-i-s-project-1-земельный-участок.validations.primarykey.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  кадНомер: {
+    descriptionKey: 'models.i-i-s-project-1-земельный-участок.validations.кадНомер.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  адрес: {
+    descriptionKey: 'models.i-i-s-project-1-земельный-участок.validations.адрес.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  разрИсп: {
+    descriptionKey: 'models.i-i-s-project-1-земельный-участок.validations.разрИсп.__caption__',
     validators: [
       validator('ds-error'),
     ],

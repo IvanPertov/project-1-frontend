@@ -6,6 +6,8 @@ moduleForModel('i-i-s-project-1-оплаты', 'Unit | Model | i-i-s-project-1-�
     'model:i-i-s-project-1-договор',
     'model:i-i-s-project-1-з-у-договора',
     'model:i-i-s-project-1-земельный-участок',
+    'model:i-i-s-project-1-контр-договора',
+    'model:i-i-s-project-1-контрагент',
     'model:i-i-s-project-1-начисления',
     'model:i-i-s-project-1-оплаты',
     'validator:ds-error',

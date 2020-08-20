@@ -19,38 +19,7 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.index.caption'),
           title: i18n.t('forms.application.sitemap.index.title'),
           children: null
-        }, {
-          link: null,
-          icon: 'list',
-          caption: i18n.t('forms.application.sitemap.project-1.caption'),
-          title: i18n.t('forms.application.sitemap.project-1.title'),
-          children: [{
-            link: 'i-i-s-project-1-з-у-договора-l',
-            caption: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-з-у-договора-l.caption'),
-            title: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-з-у-договора-l.title'),
-            children: null
-          }, {
-            link: 'i-i-s-project-1-оплаты-l',
-            caption: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-оплаты-l.caption'),
-            title: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-оплаты-l.title'),
-            children: null
-          }, {
-            link: 'i-i-s-project-1-договор-l',
-            caption: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-договор-l.caption'),
-            title: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-договор-l.title'),
-            children: null
-          }, {
-            link: 'i-i-s-project-1-начисления-l',
-            caption: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-начисления-l.caption'),
-            title: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-начисления-l.title'),
-            children: null
-          }, {
-            link: 'i-i-s-project-1-земельный-участок-l',
-            caption: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-земельный-участок-l.caption'),
-            title: i18n.t('forms.application.sitemap.project-1.i-i-s-project-1-земельный-участок-l.title'),
-            children: null
-          }]
-        }
+        }, 
       ]
     };
   }),

@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-project-1-договор', 'Unit | Model | i-i-s-project-1-договор', {
+moduleForModel('i-i-s-project-1-контр-договора', 'Unit | Model | i-i-s-project-1-контр-договора', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-project-1-договор',

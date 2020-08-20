@@ -1,16 +1,12 @@
 export default {
   projections: {
-    ЗУДоговораE: {
-    },
-    ЗУДоговораL: {
-    }
   },
   validations: {
     primarykey: {
       __caption__: 'primarykey'
     },
-    зУ: {
-      __caption__: 'зУ'
+    контрагент: {
+      __caption__: 'контрагент'
     },
     договор: {
       __caption__: 'договор'

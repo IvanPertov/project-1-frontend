@@ -14,6 +14,8 @@ import IISproject_1ОплатыEForm from './forms/i-i-s-project-1-оплаты-
 import IISproject_1ДоговорModel from './models/i-i-s-project-1-договор';
 import IISproject_1ЗУДоговораModel from './models/i-i-s-project-1-з-у-договора';
 import IISproject_1ЗемельныйУчастокModel from './models/i-i-s-project-1-земельный-участок';
+import IISproject_1КонтрДоговораModel from './models/i-i-s-project-1-контр-договора';
+import IISproject_1КонтрагентModel from './models/i-i-s-project-1-контрагент';
 import IISproject_1НачисленияModel from './models/i-i-s-project-1-начисления';
 import IISproject_1ОплатыModel from './models/i-i-s-project-1-оплаты';
 
@@ -25,6 +27,8 @@ $.extend(true, translations, {
     'i-i-s-project-1-договор': IISproject_1ДоговорModel,
     'i-i-s-project-1-з-у-договора': IISproject_1ЗУДоговораModel,
     'i-i-s-project-1-земельный-участок': IISproject_1ЗемельныйУчастокModel,
+    'i-i-s-project-1-контр-договора': IISproject_1КонтрДоговораModel,
+    'i-i-s-project-1-контрагент': IISproject_1КонтрагентModel,
     'i-i-s-project-1-начисления': IISproject_1НачисленияModel,
     'i-i-s-project-1-оплаты': IISproject_1ОплатыModel
   },

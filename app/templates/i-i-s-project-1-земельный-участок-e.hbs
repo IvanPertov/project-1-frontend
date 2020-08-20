@@ -24,13 +24,12 @@
       {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
     </div>
   </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
+  <div class="field" data-test-i-i-s-project-1-земельный-участок-e-----------="true">
+    <label>{{t "forms.i-i-s-project-1-земельный-участок-e.primarykey-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "guid")
       value=model.primarykey
-      class=(if (v-get validationObject "primarykey" "isInvalid") "error")
-      label=(t "forms.i-i-s-project-1-земельный-участок-e.primarykey-caption")
-      data-test-i-i-s-project-1-земельный-участок-e-----------=true
+      readonly=readonly
     }}
     {{flexberry-validationmessage error=(v-get validationObject "primarykey" "messages")}}
   </div>
